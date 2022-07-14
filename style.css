@@ -1,0 +1,241 @@
+@import url("https://fonts.google.com/specimen/Raleway");
+@import url("https://fonts.google.com/specimen/Open+Sans");
+
+
+body{
+    background-color: #fff;
+    margin:25px 15px auto;
+    overflow-x: hidden;
+}
+
+.col-header{
+    display: flex;
+    gap: 60em;
+    margin: 30px 25px;
+}
+
+.right-nav{
+    margin: 0 0 0 0 ;
+    float: right;
+}
+.right-nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+.right-nav ul li{
+    font-family: 'Raleway',sans-serif;
+    list-style-type: none;
+    color: hsl(238, 22%, 44%);
+}
+
+.cols{
+    display: flex;
+    margin: 110px 50px;
+    gap: 18rem;
+    margin-top: 150px;
+}
+.cols .left{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.cols .left h1{
+    font-family: 'Open Sans',sans-serif;
+    color:  hsl(243, 87%, 12%);
+    font-weight: 700;
+    font-size: 42px;
+}
+.cols .left p{
+    font-family: 'Open Sans',sans-serif;
+    color:  hsl(243, 87%, 12%);
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.start{
+    display: flex;
+    gap: 2em;
+    margin-top: 50px;
+}
+.start input{
+    font-family: 'Open Sans',sans-serif;
+    color: black;
+    height: 1em;
+    width: 60%;
+    padding: 1rem;
+}
+.start button{
+    font-family: 'Open Sans',sans-serif;
+    color: #fff;
+    background-color: hsl(224, 93%, 58%);
+    padding: 0.5rem;
+    width: 40%;
+    border: none;
+}
+/* page2 */
+#here{
+    margin-top: -500px;
+    width: 2000px;
+    z-index: 4;
+}
+.page-two{
+    margin-top: 200px;
+    background-color: hsl(240, 75%, 98%) ;
+    padding: 0.2rem;
+}
+.page-two h1{
+    font-family: 'Open Sans',sans-serif;
+    color:  hsl(243, 87%, 12%);
+    font-weight: 700;
+    font-size: 42px;
+    margin-left: 50px;
+}
+.paras p{
+    font-family: 'Open Sans',sans-serif;
+    color:  hsl(243, 87%, 12%);
+    font-weight: 400;
+    margin-left: 50px;
+}
+a{
+    font-family: 'Open Sans',sans-serif;
+    color:  hsl(170, 45%, 43%);
+    font-weight: 400;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.comment{
+    margin-left: 50px;
+    margin-top: 60px;
+    background-color: #fff;
+    padding: 2em;
+    width: 70%;
+    box-shadow: 10px 10px 100px hsl(0, 0%, 82%);
+}
+.man{
+    display: flex;
+    gap: 3em;
+}
+.comment .man img{
+    border-radius: 50%;
+}
+/* page2 closes */
+
+.blue-box{
+    display: flex;
+    gap: 18rem;
+    background-color:hsl(238, 22%, 44%);
+    padding: 3rem;
+}
+.blue-box h1{
+    margin-left: 100px;
+    color: #fff;
+    font-family: 'Raleway',sans-serif;
+}
+.blue-box p{
+    margin-left: 100px;
+    color: #fff;
+    font-family: 'Raleway',sans-serif;
+}
+.blue-box input{
+    margin-top: 20px;
+    width: 200%;
+    height: 3rem;
+    color: black;
+}
+.blue-box button{
+    font-family: 'Open Sans',sans-serif;
+    color: #fff;
+    background-color: hsl(224, 93%, 58%);
+    padding: 0.5rem;
+    width: 100%;
+    border: none;
+    height: 3rem;
+    margin-top: 30px;
+}
+
+footer{
+    background-color: hsl(243, 87%, 12%);
+    display: flex;
+    padding: 3rem;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    gap: 15rem;
+}
+.small-footer{
+    display: flex;
+    color: #fff;
+    gap: 20rem;
+    margin-top: 30px;
+}
+.small-footer ul li{
+    list-style-type: none;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    padding: 0.3rem;
+}
+.one h1,h2{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 15px;
+}
+.small-footer .right i{
+    display: inline-block;
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    row-gap: 1rem;
+}
+.attribution{
+    background-color: hsl(243, 87%, 12%);
+    color: #fff;
+}
+.attribution a{
+    color: blanchedalmond;
+}
+
+
+@media screen and (max-width: 800px){
+.logo img{
+    width: 150px;
+}
+    .right-nav {
+        gap: 0.2rem;
+        margin-left: -900px;
+        font-size: 12px;
+    }
+    .right-nav ul{
+        gap: 2rem;
+    }
+    .cols{
+        flex-direction: column;
+    }
+    .cols .img img{
+        width: 380px;
+        padding: 0;
+        margin-top: -50px;
+    }
+    .man{
+        flex-direction: column;
+    }
+    .blue-box{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .small-footer{
+        flex-direction: column;
+        gap: 1rem;
+        margin-left: -500px;
+        margin-top: 150px;
+    }
+    .small-footer .right{
+        margin-left: 150px;
+    }
+}
+    
